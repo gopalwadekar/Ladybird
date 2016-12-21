@@ -20,8 +20,8 @@ public class ExecuteAutomationTool {
 			endTime = "";
 	public static Long start = null, end = null;
 
-	//public static void main(String[] args) {
-	public static void temp(){
+	public static void main(String[] args) {
+
 		System.out.println("--- Dwellar Web AutomationTool Started ---");
 
 		try {
