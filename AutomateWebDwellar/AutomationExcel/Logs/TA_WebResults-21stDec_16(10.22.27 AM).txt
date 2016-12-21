@@ -1,0 +1,52 @@
+
+      Dwellar Systems Private Limited. All Rights Reserved.  
+===============================================================================
+  GENERIC AUTOMATION TESTING 
+
+ ............................ 
+  PROJECT     :  AutomationTool for WebSite  
+
+  TEAM LEADER :  Gopal Wadekar			   	
+
+  MENTORS     :  Pradip Desai			    
+                 Meghna Vaidhya			    
+
+  DEVELOPERS  :  Ganesh Prasad			    
+                 DINESH PARMAR			    
+
+===============================================================================
++-----------------------+
+| ROOT EXCEL IS LOADED. |
++-----------------------+
+
+----------------------------------------------------------------------------
+Date                            : Wed 2016.12.21 at 10:22 AM
+Execution Id                    : TA_Web:c1c1ade4-2ea2-4fee-9155-344af3e596ce
+Base URL                        : http://prodtest2.cloudapp.net/app/#
+URL Enviornment                 : PRODTEST
+Navigation Location             : Project
+Navigation Folder Name          : AutomationExcel\\Navigation
+Navigation File Name            : Navigation.xlsx
+Navigation Sheet Name           : naviFlow
+TestCase Location               : Project
+TestCase Folder Name            : AutomationExcel\\TestCases
+TestCase File Name              : TestCases.xlsx
+Sending Email from ID           : automationtester987@gmail.com
+Sending Email from Password     : automationtester987
+Sending Email to Email IDS      : meghna.vaidya@dwellar.com,gopal.wadekar@dwellar.com,ganesh.prasad@dwellar.com,dinesh.parmar@dwellar.com
+----------------------------------------------------------------------------
+===============================================================================
++--------------------------------------------+
+| --- Dwellar Web AutomationTool Started --- |
++--------------------------------------------+
+
+
+======================================
++----------+
+| naviFlow |
++----------+
+
+Total Navigation Scripts have to Run [2] :
+1. instantLogin
+2. AddLeadFieldVal
+======================================

@@ -1,0 +1,194 @@
+
+      Dwellar Systems Private Limited. All Rights Reserved.  
+===============================================================================
+  GENERIC AUTOMATION TESTING 
+
+ ............................ 
+  PROJECT     :  AutomationTool for WebSite  
+
+  TEAM LEADER :  Gopal Wadekar			   	
+
+  MENTORS     :  Pradip Desai			    
+                 Meghna Vaidhya			    
+
+  DEVELOPERS  :  Ganesh Prasad			    
+                 DINESH PARMAR			    
+
+===============================================================================
++-----------------------+
+| ROOT EXCEL IS LOADED. |
++-----------------------+
+
+----------------------------------------------------------------------------
+Date                            : Fri 2016.12.16 at 01:54 PM
+Execution Id                    : TA_Web:595f3467-6709-46ec-b43b-1040a66c7f28
+Base URL                        : http://prodtest2.cloudapp.net/app/#
+URL Enviornment                 : PRODTEST
+Navigation Location             : Project
+Navigation Folder Name          : AutomationExcel\\Navigation
+Navigation File Name            : Navigation.xlsx
+Navigation Sheet Name           : naviFlow
+TestCase Location               : Project
+TestCase Folder Name            : AutomationExcel\\TestCases
+TestCase File Name              : TestCases.xlsx
+Sending Email from ID           : automationtester987@gmail.com
+Sending Email from Password     : automationtester987
+Sending Email to Email IDS      : meghna.vaidya@dwellar.com,gopal.wadekar@dwellar.com,ganesh.prasad@dwellar.com,dinesh.parmar@dwellar.com
+----------------------------------------------------------------------------
+===============================================================================
++--------------------------------------------+
+| --- Dwellar Web AutomationTool Started --- |
++--------------------------------------------+
+
+
+======================================
++----------+
+| naviFlow |
++----------+
+
+Total Navigation Scripts have to Run [2] :
+1. instantLogin
+2. AddLeadFieldVal
+======================================
+
+******************************************************
++--------------+
+| instantLogin |
++--------------+
+
+******************************************************
++-----------------+
+| AddLeadFieldVal |
++-----------------+
+
+_____________________________________________________________
+
+
+Test Case           : Check ALPHABETIC First Name
+............................................................
+Expected Result     : No error message
+Actual Result       : No error message
+............................................................
+Test Result         : PASSED	Execution Time    : 6 seconds
+Database Status     : [ INSERTED ]
+
+_____________________________________________________________
+
+
+Test Case           : Check NUMERIC First Name
+............................................................
+Expected Result     : Enter valid first name
+Actual Result       : Enter valid first name
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ INSERTED ]
+
+_____________________________________________________________
+
+
+Test Case           : Check ALPHA-NUMERIC First Name
+............................................................
+Expected Result     : Enter valid first name
+Actual Result       : Enter valid first name
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ INSERTED ]
+
+_____________________________________________________________
+
+
+Test Case           : Check SPECIAL-CHARACTER First Name
+............................................................
+Expected Result     : Enter valid first name
+Actual Result       : Enter valid first name
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ INSERTED ]
+
+_____________________________________________________________
+
+
+Test Case           : Check ALPHABETIC Middle Name
+............................................................
+Expected Result     : No error message
+Actual Result       : No error message
+............................................................
+Test Result         : PASSED	Execution Time    : 6 seconds
+Database Status     : [ INSERTED ]
+
+_____________________________________________________________
+
+
+Test Case           : Check NUMERIC Middle Name
+............................................................
+Expected Result     : Enter valid middle name
+Actual Result       : Enter valid Middle Name
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ INSERTED ]
+
+_____________________________________________________________
+
+
+Test Case           : Check ALPHA-NUMERIC Middle Name
+............................................................
+Expected Result     : Enter valid middle name
+Actual Result       : Enter valid Middle Name
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ INSERTED ]
+
+_____________________________________________________________
+
+
+Test Case           : Check SPECIAL-CHARACTER Middle Name
+............................................................
+Expected Result     : Enter valid middle name
+Actual Result       : Enter valid Middle Name
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ INSERTED ]
+
+_____________________________________________________________
+
+
+Test Case           : Check ALPHABETIC Last Name
+............................................................
+Expected Result     : No error message
+Actual Result       : No error message
+............................................................
+Test Result         : PASSED	Execution Time    : 6 seconds
+Database Status     : [ INSERTED ]
+
+_____________________________________________________________
+
+
+Test Case           : Check NUMERIC Last Name
+............................................................
+Expected Result     : Enter valid last name
+Actual Result       : Enter valid last name
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ INSERTED ]
+
+_____________________________________________________________
+
+
+Test Case           : Check ALPHA-NUMERIC First Name
+............................................................
+Expected Result     : Enter valid last name
+Actual Result       : Enter valid last name
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ INSERTED ]
+
+_____________________________________________________________
+
+
+Test Case           : Check SPECIAL-CHARACTER Last Name
+............................................................
+Expected Result     : Enter valid last name
+Actual Result       : Enter valid last name
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ INSERTED ]
