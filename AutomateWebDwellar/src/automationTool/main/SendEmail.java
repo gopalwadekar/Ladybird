@@ -14,8 +14,6 @@ import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
-import org.python.antlr.op.Load;
-
 
 public class SendEmail {
 

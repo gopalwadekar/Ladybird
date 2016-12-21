@@ -3,8 +3,6 @@ package automationTool.main;
 import java.util.ArrayList;
 import java.util.List;
 
-import jnr.ffi.Struct.id_t;
-
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
