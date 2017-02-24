@@ -1,0 +1,407 @@
+
+      Dwellar Systems Private Limited. All Rights Reserved.  
+===============================================================================
+  GENERIC AUTOMATION TESTING 
+
+ ............................ 
+  PROJECT     :  AutomationTool for WebSite  
+
+  TEAM LEADER :  Gopal Wadekar			   	
+
+  MENTORS     :  Pradip Desai			    
+                 Meghna Vaidhya			    
+
+  DEVELOPERS  :  Ganesh Prasad			    
+                 DINESH PARMAR			    
+
+===============================================================================
++-----------------------+
+| ROOT EXCEL IS LOADED. |
++-----------------------+
+
+----------------------------------------------------------------------------
+Date                            : Tue 2017.02.07 at 03:22 PM
+Execution Id                    : TA_Web:345f5fac-9fed-48fe-bc8e-053126dd9ade
+Base URL                        : https://portal.dwellar.com/#
+URL Enviornment                 : PROD
+Navigation Location             : Project
+Navigation Folder Name          : AutomationExcel\\Navigation
+Navigation File Name            : Navigation2017.xlsx
+Navigation Sheet Name           : naviFlow
+TestCase Location               : Project
+TestCase Folder Name            : AutomationExcel\\TestCases
+TestCase File Name              : TestCases2017.xlsx
+Sending Email from ID           : automationtester987@gmail.com
+Sending Email from Password     : automationtester987
+Sending Email to Email IDS      : dinesh.parmar@dwellar.com
+Set Email to Send               : NO
+Set Insert TestCases in DB      : NO
+----------------------------------------------------------------------------
+===============================================================================
++--------------------------------------------+
+| --- Dwellar Web AutomationTool Started --- |
++--------------------------------------------+
+
+
+======================================
++----------+
+| naviFlow |
++----------+
+
+Total Navigation Scripts have to Run [17] :
+1. instantLogin
+2. saveLoginUserID
+3. replaceTag
+4. checkRTagInG
+5. checkRTagInLDP
+6. auditLogReplaceTag
+7. addTagLDP
+8. checkTagInLDP
+9. checkTagInG1
+10. auditLogAddTagLDP
+11. addTagG
+12. checkTagInG2
+13. checkTagInLDP
+14. auditLogAddTagG
+15. removeTag
+16. checkDTagInG
+17. auditLogRemoveTag
+======================================
+
+******************************************************
++--------------+
+| instantLogin |
++--------------+
+
+******************************************************
++-----------------+
+| saveLoginUserID |
++-----------------+
+
+******************************************************
++------------+
+| replaceTag |
++------------+
+
+_____________________________________________________________
+
+
+Test Case           : Replace Tag From Lead Detail Page
+............................................................
+Expected Result     : Tag Replaced Successfully.
+Actual Result       : Tag Replaced Successfully.
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ NOT SET ]
+
+******************************************************
++--------------+
+| checkRTagInG |
++--------------+
+
+_____________________________________________________________
+
+
+Test Case           : Check Updated Date in Lead Grid
+............................................................
+Expected Result     : 07/02/2017
+Actual Result       : 07/02/2017 03:27:07 PM
+............................................................
+Test Result         : PASSED	Execution Time    : 18 seconds
+Database Status     : [ NOT SET ]
+
+_____________________________________________________________
+
+
+Test Case           : Check Replace Tag  in Lead Grid
+............................................................
+Expected Result     : SOLD
+Actual Result       : SOLD
+............................................................
+Test Result         : PASSED	Execution Time    : 25 seconds
+Database Status     : [ NOT SET ]
+
+******************************************************
++----------------+
+| checkRTagInLDP |
++----------------+
+
+_____________________________________________________________
+
+
+Test Case           : Check Replace Tag  in Lead Detail Page
+............................................................
+Expected Result     : SOLD
+Actual Result       : SOLD
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ NOT SET ]
+
+******************************************************
++--------------------+
+| auditLogReplaceTag |
++--------------------+
+
+_____________________________________________________________
+
+
+Test Case           : Check Login User Id for Lead Tag
+............................................................
+Expected Result     : cbf502fa-dd97-44b0-b98f-35de9649a57b
+Actual Result       : cbf502fa-dd97-44b0-b98f-35de9649a57b
+............................................................
+Test Result         : PASSED	Execution Time    : 16 seconds
+Database Status     : [ NOT SET ]
+
+_____________________________________________________________
+
+
+Test Case           : Check Audit Log for Added Tag
+............................................................
+Expected Result     : b7fdccfd-a327-488e-9fca-a8ef0b6e7f9b
+Actual Result       : b7fdccfd-a327-488e-9fca-a8ef0b6e7f9b
+............................................................
+Test Result         : PASSED	Execution Time    : 38 seconds
+Database Status     : [ NOT SET ]
+
+******************************************************
++-----------+
+| addTagLDP |
++-----------+
+
+_____________________________________________________________
+
+
+Test Case           : Add Tag From Lead Detail Page
+............................................................
+Expected Result     : Tag Added Successfully.
+Actual Result       : Tag Added Successfully.
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ NOT SET ]
+
+******************************************************
++---------------+
+| checkTagInLDP |
++---------------+
+
+_____________________________________________________________
+
+
+Test Case           : Check Added Tag  in Lead Detail Page
+............................................................
+Expected Result     : five
+Actual Result       : FIVE
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ NOT SET ]
+
+******************************************************
++--------------+
+| checkTagInG1 |
++--------------+
+
+_____________________________________________________________
+
+
+Test Case           : Check Updated Date in Lead Grid
+............................................................
+Expected Result     : 07/02/2017
+Actual Result       : 07/02/2017 03:33:15 PM
+............................................................
+Test Result         : PASSED	Execution Time    : 29 seconds
+Database Status     : [ NOT SET ]
+
+_____________________________________________________________
+
+
+Test Case           : Check Added Tag  in Lead Grid
+............................................................
+Expected Result     : five
+Actual Result       : FIVE
+............................................................
+Test Result         : PASSED	Execution Time    : 36 seconds
+Database Status     : [ NOT SET ]
+
+******************************************************
++-------------------+
+| auditLogAddTagLDP |
++-------------------+
+
+_____________________________________________________________
+
+
+Test Case           : Check Login User Id for Lead Tag
+............................................................
+Expected Result     : cbf502fa-dd97-44b0-b98f-35de9649a57b
+Actual Result       : cbf502fa-dd97-44b0-b98f-35de9649a57b
+............................................................
+Test Result         : PASSED	Execution Time    : 54 seconds
+Database Status     : [ NOT SET ]
+
+_____________________________________________________________
+
+
+Test Case           : Check Audit Log for Added Tag
+............................................................
+Expected Result     : b7fdccfd-a327-488e-9fca-a8ef0b6e7f9b
+Actual Result       : b7fdccfd-a327-488e-9fca-a8ef0b6e7f9b
+............................................................
+Test Result         : PASSED	Execution Time    : 11 seconds
+Database Status     : [ NOT SET ]
+
+******************************************************
++---------+
+| addTagG |
++---------+
+
+_____________________________________________________________
+
+
+Test Case           : Add Tag From Lead Grid
+............................................................
+Expected Result     : Tag Added Successfully.
+Actual Result       : Tag Added Successfully.
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ NOT SET ]
+
+******************************************************
++--------------+
+| checkTagInG2 |
++--------------+
+
+_____________________________________________________________
+
+
+Test Case           : Check Updated Date in Lead Grid
+............................................................
+Expected Result     : 07/02/2017
+Actual Result       : 07/02/2017 03:40:02 PM
+............................................................
+Test Result         : PASSED	Execution Time    : 16 seconds
+Database Status     : [ NOT SET ]
+
+_____________________________________________________________
+
+
+Test Case           : Check Added Tag  in Lead Grid
+............................................................
+Expected Result     : four
+Actual Result       : four
+............................................................
+Test Result         : PASSED	Execution Time    : 8 seconds
+Database Status     : [ NOT SET ]
+
+******************************************************
++---------------+
+| checkTagInLDP |
++---------------+
+
+_____________________________________________________________
+
+
+Test Case           : Check Added Tag  in Lead Detail Page
+............................................................
+Expected Result     : four
+Actual Result       : FOUR
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ NOT SET ]
+
+******************************************************
++-----------------+
+| auditLogAddTagG |
++-----------------+
+
+_____________________________________________________________
+
+
+Test Case           : Check Login User Id for Lead Tag
+............................................................
+Expected Result     : cbf502fa-dd97-44b0-b98f-35de9649a57b
+Actual Result       : cbf502fa-dd97-44b0-b98f-35de9649a57b
+............................................................
+Test Result         : PASSED	Execution Time    : 14 seconds
+Database Status     : [ NOT SET ]
+
+_____________________________________________________________
+
+
+Test Case           : Check Audit Log for Added Tag
+............................................................
+Expected Result     : b7fdccfd-a327-488e-9fca-a8ef0b6e7f9b
+Actual Result       : b7fdccfd-a327-488e-9fca-a8ef0b6e7f9b
+............................................................
+Test Result         : PASSED	Execution Time    : 6 seconds
+Database Status     : [ NOT SET ]
+
+******************************************************
++-----------+
+| removeTag |
++-----------+
+
+_____________________________________________________________
+
+
+Test Case           : Remove Tag From Lead Detail Page
+............................................................
+Expected Result     : Tag removed Successfully.
+Actual Result       : Tag removed Successfully.
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ NOT SET ]
+
+******************************************************
++--------------+
+| checkDTagInG |
++--------------+
+
+_____________________________________________________________
+
+
+Test Case           : Check Remove Tag  in Lead Detail Page
+............................................................
+Expected Result     : No tag Found
+Actual Result       : No tag Found
+............................................................
+Test Result         : PASSED	Execution Time    : 24 seconds
+Database Status     : [ NOT SET ]
+
+******************************************************
++-------------------+
+| auditLogRemoveTag |
++-------------------+
+
+_____________________________________________________________
+
+
+Test Case           : Check Login User Id for Lead Tag
+............................................................
+Expected Result     : cbf502fa-dd97-44b0-b98f-35de9649a57b
+Actual Result       : cbf502fa-dd97-44b0-b98f-35de9649a57b
+............................................................
+Test Result         : PASSED	Execution Time    : 58 seconds
+Database Status     : [ NOT SET ]
+
+_____________________________________________________________
+
+
+Test Case           : Check Audit Log for Added Tag
+............................................................
+Expected Result     : 86d7015e-bc83-4d9a-aa64-e23b574eb3c9
+Actual Result       : 86d7015e-bc83-4d9a-aa64-e23b574eb3c9
+............................................................
+Test Result         : FAILED	Execution Time    : 9 seconds
+Database Status     : [ NOT SET ]
+
+
+____________________________________________________________
+Start Time   : 03 : 22 PM
+End Time     : 03 : 46 PM
+Total Time   : 24 minutes
+____________________________________________________________
+
++---------------------------------------------+
+| --- Dwellar Web AutomationTool Finished --- |
++---------------------------------------------+
