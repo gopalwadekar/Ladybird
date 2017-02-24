@@ -1,0 +1,87 @@
+
+      Dwellar Systems Private Limited. All Rights Reserved.  
+===============================================================================
+  GENERIC AUTOMATION TESTING 
+
+ ............................ 
+  PROJECT     :  AutomationTool for WebSite  
+
+  TEAM LEADER :  Gopal Wadekar			   	
+
+  MENTORS     :  Pradip Desai			    
+                 Meghna Vaidhya			    
+
+  DEVELOPERS  :  Ganesh Prasad			    
+                 DINESH PARMAR			    
+
+===============================================================================
++-----------------------+
+| ROOT EXCEL IS LOADED. |
++-----------------------+
+
+----------------------------------------------------------------------------
+Date                            : Thu 2017.02.23 at 05:43 PM
+Execution Id                    : TA_Web:318a13c9-1c3b-4e1e-9e43-960c9a90742c
+Base URL                        : https://portal.dwellar.com/#
+URL Enviornment                 : PROD
+Navigation Location             : Project
+Navigation Folder Name          : AutomationExcel\\Navigation
+Navigation File Name            : NavigationVK20.xlsx
+Navigation Sheet Name           : naviFlow
+TestCase Location               : Project
+TestCase Folder Name            : AutomationExcel\\TestCases
+TestCase File Name              : TestCasesVK20.xlsx
+Sending Email from ID           : automationtester987@gmail.com
+Sending Email from Password     : automationtester987
+Sending Email to Email IDS      : gopal.wadekar@dwellar.com
+Set Email to Send               : YES
+Set Insert TestCases in DB      : YES
+----------------------------------------------------------------------------
+===============================================================================
++--------------------------------------------+
+| --- Dwellar Web AutomationTool Started --- |
++--------------------------------------------+
+
+
+======================================
++----------+
+| naviFlow |
++----------+
+
+Total Navigation Scripts have to Run [4] :
+1. instantLogin
+2. saveLoginUserID
+3. Sneha_addsiteVist
+4. postponeSiteVisit
+======================================
+
+******************************************************
++--------------+
+| instantLogin |
++--------------+
+
+******************************************************
++-----------------+
+| saveLoginUserID |
++-----------------+
+
+******************************************************
++-------------------+
+| Sneha_addsiteVist |
++-------------------+
+
+_____________________________________________________________
+
+
+Test Case           : Check Successfull PopUp
+............................................................
+Expected Result     : Task Created Successfully.
+Actual Result       : Task created successfully
+............................................................
+Test Result         : FAILED	Execution Time    : 4 seconds
+Database Status     : [ INSERTED ]
+
+******************************************************
++-------------------+
+| postponeSiteVisit |
++-------------------+

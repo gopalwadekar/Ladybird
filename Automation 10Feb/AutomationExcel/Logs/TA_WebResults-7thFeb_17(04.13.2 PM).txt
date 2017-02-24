@@ -1,0 +1,137 @@
+
+      Dwellar Systems Private Limited. All Rights Reserved.  
+===============================================================================
+  GENERIC AUTOMATION TESTING 
+
+ ............................ 
+  PROJECT     :  AutomationTool for WebSite  
+
+  TEAM LEADER :  Gopal Wadekar			   	
+
+  MENTORS     :  Pradip Desai			    
+                 Meghna Vaidhya			    
+
+  DEVELOPERS  :  Ganesh Prasad			    
+                 DINESH PARMAR			    
+
+===============================================================================
++-----------------------+
+| ROOT EXCEL IS LOADED. |
++-----------------------+
+
+----------------------------------------------------------------------------
+Date                            : Tue 2017.02.07 at 04:13 PM
+Execution Id                    : TA_Web:0540d596-f984-45d1-85f5-c8b6296dbaa6
+Base URL                        : https://portal.dwellar.com/#
+URL Enviornment                 : PROD
+Navigation Location             : Project
+Navigation Folder Name          : AutomationExcel\\Navigation
+Navigation File Name            : Navigation2017.xlsx
+Navigation Sheet Name           : naviFlow
+TestCase Location               : Project
+TestCase Folder Name            : AutomationExcel\\TestCases
+TestCase File Name              : TestCases2017.xlsx
+Sending Email from ID           : automationtester987@gmail.com
+Sending Email from Password     : automationtester987
+Sending Email to Email IDS      : dinesh.parmar@dwellar.com
+Set Email to Send               : NO
+Set Insert TestCases in DB      : NO
+----------------------------------------------------------------------------
+===============================================================================
++--------------------------------------------+
+| --- Dwellar Web AutomationTool Started --- |
++--------------------------------------------+
+
+
+======================================
++----------+
+| naviFlow |
++----------+
+
+Total Navigation Scripts have to Run [5] :
+1. instantLogin
+2. saveLoginUserID
+3. removeTag
+4. checkDTagInG
+5. auditLogRemoveTag
+======================================
+
+******************************************************
++--------------+
+| instantLogin |
++--------------+
+
+******************************************************
++-----------------+
+| saveLoginUserID |
++-----------------+
+
+******************************************************
++-----------+
+| removeTag |
++-----------+
+
+_____________________________________________________________
+
+
+Test Case           : Remove Tag From Lead Detail Page
+............................................................
+Expected Result     : Tag removed Successfully.
+Actual Result       : Tag removed Successfully.
+............................................................
+Test Result         : PASSED	Execution Time    : 4 seconds
+Database Status     : [ NOT SET ]
+
+******************************************************
++--------------+
+| checkDTagInG |
++--------------+
+
+_____________________________________________________________
+
+
+Test Case           : Check Remove Tag  in Lead Detail Page
+............................................................
+Expected Result     : No tag Found
+Actual Result       : No tag Found
+............................................................
+Test Result         : PASSED	Execution Time    : 12 seconds
+Database Status     : [ NOT SET ]
+
+******************************************************
++-------------------+
+| auditLogRemoveTag |
++-------------------+
+
+_____________________________________________________________
+
+
+Test Case           : Check Login User Id for Lead Tag
+............................................................
+Expected Result     : cbf502fa-dd97-44b0-b98f-35de9649a57b
+Actual Result       : cbf502fa-dd97-44b0-b98f-35de9649a57b
+............................................................
+Test Result         : PASSED	Execution Time    : 10 seconds
+Database Status     : [ NOT SET ]
+
+_____________________________________________________________
+
+
+Test Case           : Check Audit Log for Added Tag
+............................................................
+Expected Result     : b7fdccfd-a327-488e-9fca-a8ef0b6e7f9b
+Actual Result       : b7fdccfd-a327-488e-9fca-a8ef0b6e7f9b
+............................................................
+Test Result         : PASSED	Execution Time    : 13 seconds
+Database Status     : [ NOT SET ]
+
+
+____________________________________________________________
+Start Time   : 04 : 13 PM
+End Time     : 04 : 19 PM
+Total Time   : 6 minutes
+____________________________________________________________
+
++---------------------------------------------+
+| --- Dwellar Web AutomationTool Finished --- |
++---------------------------------------------+
